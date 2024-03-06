@@ -301,7 +301,7 @@ img {
 }
 
 .advantages-item-large:nth-child(1) .advantages-item-wrapper::before {
-  background-image: url("/img/№1.svg");
+  background-image: url("/img/1.svg");
 }
 
 .advantages-item-large:nth-child(2) .advantages-item-wrapper::before {
