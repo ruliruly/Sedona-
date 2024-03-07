@@ -884,7 +884,7 @@ img {
 .breadcrumbs::after {
   width: 5px;
   height: 8px;
-  background-image: url("/img/nav-link.svg");
+  background-image: url("../img/nav-link.svg");
   background-repeat: no-repeat;
   content: "";
 }
@@ -907,7 +907,7 @@ img {
   height: 12px;
   top: 4px;
   left: 5px;
-  background-image: url("/img/house_small.svg");
+  background-image: url("../img/house_small.svg");
   content: "";
 }
 .breadcrumbs-link-index:hover {
