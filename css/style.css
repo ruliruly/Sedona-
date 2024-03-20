@@ -45,7 +45,6 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-
   background: #9784dd;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
 }
@@ -301,11 +300,11 @@ img {
 }
 
 .advantages-item-large:nth-child(1) .advantages-item-wrapper::before {
-  background-image: url("/img/№1.svg");
+  background-image: url("../img/1.svg");
 }
 
 .advantages-item-large:nth-child(2) .advantages-item-wrapper::before {
-  background-image: url("/img/№2.svg");
+  background-image: url("../img/№2.svg");
 }
 
 .advantages-item {
@@ -315,15 +314,15 @@ img {
 }
 
 :not(.advantages-list-inner) > .advantages-item:nth-child(3)::before {
-  background-image: url("/img/№3.svg");
+  background-image: url("../img/№3.svg");
 }
 
 :not(.advantages-list-inner) > .advantages-item:nth-child(4)::before {
-  background-image: url("/img/№4.svg");
+  background-image: url("../img/№4.svg");
 }
 
 :not(.advantages-list-inner) > .advantages-item:nth-child(5)::before {
-  background-image: url("/img/№5.svg");
+  background-image: url("../img/№5.svg");
 }
 
 .advantages-list-inner .advantages-item-title {
@@ -335,17 +334,17 @@ img {
 } не меняет расположение отступ текста в картачках на главной */
 
 .advantages-list-inner .advantages-item:nth-child(1)::before {
-  background-image: url("/img/house_big.svg");
+  background-image: url("../img/house_big.svg");
   bottom: 69px;
 }
 
 .advantages-list-inner .advantages-item:nth-child(2)::before {
-  background-image: url("/img/food.svg");
+  background-image: url("../img/food.svg");
   bottom: 69px;
 }
 
 .advantages-list-inner .advantages-item:nth-child(3)::before {
-  background-image: url("/img/souvenir.svg");
+  background-image: url("../img/souvenir.svg");
   bottom: 69px;
 }
 
@@ -884,7 +883,7 @@ img {
 .breadcrumbs::after {
   width: 5px;
   height: 8px;
-  background-image: url("/img/nav-link.svg");
+  background-image: url("../img/nav-link.svg");
   background-repeat: no-repeat;
   content: "";
 }
@@ -907,7 +906,7 @@ img {
   height: 12px;
   top: 4px;
   left: 5px;
-  background-image: url("/img/house_small.svg");
+  background-image: url("../img/house_small.svg");
   content: "";
 }
 .breadcrumbs-link-index:hover {
